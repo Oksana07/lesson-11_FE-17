@@ -1,0 +1,159 @@
+:root {
+  --accent-color: #2196f3;
+  --blak-color: #000;
+  --basic-color: #757575;
+  --minor-color: #212121;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0px;
+}
+
+address {
+    font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Хедер */
+.header{
+    display: flex;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+
+  margin-right: 94px;
+}
+
+.logo-sryle {
+  color: #000;
+}
+
+.menu-list{
+display: flex;
+}
+
+.menu-item:not(:last-child){
+margin-right: 50px;
+}
+
+.header-addres{
+margin-left: 344px;
+}
+
+.header-cont:not(:last-child){
+margin-right: 50px;
+}
+    
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 1600px;
+ 
+}
+
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+
+  margin-bottom: 30px;
+
+  width: 696px;
+  margin: 0px auto;
+}
+
+.hero-btn {
+  display: flex;
+  margin: 0px auto;
+  padding: 10px 32px;
+
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+
+  border: none;
+  border-radius: 4px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/*  */
+
+/* portfolio */
+.portfolio-list {
+  display: flex;
+  /* gap: 8px; */
+}
+
+.portfolio-list > .item:not(:first-child) {
+  margin-left: 8px;
+}
+
+.portfolio-btn {
+  color: var(--blak-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
+
+  /* padding-top: 6px;
+    padding-left: 22px;
+    padding-bottom: 6px;
+    padding-right: 22px; */
+
+  /* padding: 6px 22px 6px 22px; */
+
+  padding: 6px 22px;
+
+  border: none;
+}
