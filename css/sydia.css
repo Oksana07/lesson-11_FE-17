@@ -73,12 +73,30 @@ display: flex;
 margin-right: 50px;
 }
 
+.menu-link{
+  color: var(--minor-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
 .header-addres{
 margin-left: 344px;
 }
 
 .header-cont:not(:last-child){
 margin-right: 50px;
+}
+
+.header-cont{
+  color: var(--basic-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
     
 /* Герой */
