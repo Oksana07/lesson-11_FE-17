@@ -24,6 +24,17 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0px;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -35,7 +46,27 @@ a {
   overflow: hidden;
 }
 
+.container{
+  width: 972px;
+  padding-left: 33px;
+  padding-right: 33px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* header */
+.header{
+  padding-top: 71px;
+}
+
+.header-list-munu{
+  display: flex; 
+}
+
+.header-menu-item:not(:first-child){
+  margin-left: 99px;
+}
+
 .header-link {
   color: var(--menu-color-blog);
   text-transform: uppercase;
@@ -47,10 +78,18 @@ a {
 }
 
 /* section */
+.blogs{
+  padding-top: 92px;
+  padding-bottom: 66px;
+}
+
 .blogs-link {
   color: var(--link-color-blog);
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
+
+  display: block;
+  margin-top: 62px;
 }
 
 .blogs-link:hover,
@@ -59,18 +98,26 @@ a {
 }
 
 .blogs-title {
+  margin-top: 32px;
+
   color: var(--title-color-blog);
   font-size: 30px;
 }
 
 .blogs-text {
+  margin-top: 48px;
+
   color: var(--cpntent-color-blog);
 }
 
 .blogs-button {
+  margin-top: 90px;
+  padding: 20px 49px 21px 48px;
+
   color: var(--cpntent-color-blog);
   background-color: aliceblue;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .blogs-button:hover,
