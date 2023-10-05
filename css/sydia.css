@@ -27,6 +27,7 @@ h6,
 ul,
 p {
   margin: 0px;
+  padding: 0px;
 }
 
 address {
@@ -99,6 +100,11 @@ address {
   letter-spacing: 0.28px;
 }
 
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--accent-color);
+}
+
 .header-addres {
   margin-left: 344px;
   padding-top: 32px;
@@ -116,6 +122,11 @@ address {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+
+.header-cont:hover,
+.header-cont:focus{
+  color: var(--accent-color);
 }
 
 /* Герой */
@@ -136,9 +147,11 @@ address {
   text-transform: uppercase;
 
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
   width: 696px;
-  margin: 0px auto;
+ 
 }
 
 .hero-btn {
@@ -166,9 +179,15 @@ address {
   padding-top: 94px;
 }
 
-.advantages-tex{
-  padding-top: 10px;
+.advantages-list{
+  display: flex;
+}
 
+.advantages-title{
+  margin-bottom: 10px;
+}
+
+.advantages-tex{
   color: var(--basic-color);
     font-size: 14px;
     font-style: normal;
@@ -183,10 +202,78 @@ address {
   padding-bottom: 94px;
 }
 
+.our-work-tile{
+  color: var(--minor-color);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+
+    margin-bottom: 30px;
+}
+
+.our-work-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Наша команда */
+.team{
+  background-color: #F5F4FA;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-title{
+color: var(--minor-color);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+
+  margin-bottom: 30px;
+}
+
+.team-list{
+display: flex;
+}
+
+.team-name{
+  color: var(--minor-color);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+
+    margin-bottom: 10px;
+}
+
+.team-text{
+  color: var(--basic-color);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
 /* portfolio */
+.portfolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio-list {
   display: flex;
-  /* gap: 8px; */
+ justify-content: center;
+ margin-bottom: 50px;
 }
 
 .portfolio-list > .item:not(:first-child) {
@@ -201,16 +288,15 @@ address {
   line-height: 1.62;
   letter-spacing: 0.48px;
 
-  /* padding-top: 6px;
-    padding-left: 22px;
-    padding-bottom: 6px;
-    padding-right: 22px; */
-
-  /* padding: 6px 22px 6px 22px; */
-
   padding: 6px 22px;
 
   border: none;
+}
+
+.prijelt-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* footer */
