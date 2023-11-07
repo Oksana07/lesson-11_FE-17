@@ -72,7 +72,6 @@ address {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
@@ -100,7 +99,7 @@ address {
 .menu-link {
   color: var(--minor-color);
   font-size: 14px;
-  font-style: normal;
+  
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -124,7 +123,7 @@ address {
 .header-cont {
   color: var(--basic-color);
   font-size: 14px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -168,7 +167,6 @@ address {
   color: #fff;
   text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
@@ -197,6 +195,7 @@ flex-basis: calc((100% - 90px) / 4);
 
 .advantages-title{
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .advantages-tex{
@@ -206,6 +205,38 @@ flex-basis: calc((100% - 90px) / 4);
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+
+}
+
+/* beefore */
+.beefore{
+content: '';
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.advantages-1{
+background-image: url(../images/web-studia/antenna.jpg);
+}
+
+.advantages-2{
+  background-image: url(../images/web-studia/clock.png);
+}
+
+.advantages-3{
+  background-image: url(../images/web-studia/diagram.png);
+}
+
+.advantages-4{
+  background-image: url(../images/web-studia/astronaut.png);
 }
 
 /* Чим ми займаємося */
