@@ -211,8 +211,6 @@ flex-basis: calc((100% - 90px) / 4);
 
 /* beefore */
 .beefore{
-content: '';
- 
   background-repeat: no-repeat;
   background-position: center;
   width: 270px;
