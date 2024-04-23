@@ -1,0 +1,90 @@
+.blogs {
+  padding-top: 92px;
+  padding-bottom: 66px;
+}
+
+.blogs-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -65px;
+  margin-top: -130px;
+}
+
+.blogs-list > .blogs-item {
+  margin-left: 65px;
+  margin-top: 130px;
+  flex-basis: calc((100% - 120px) / 3);
+}
+
+.blogs-item {
+  width: 420px;
+}
+
+.blogs-link {
+  // color: var(--link-color-blog);
+  // color: $link-color-blog;
+  // color: map-get($colors, "link-blog");
+  color: getColor("link-blog");
+
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+
+  display: block;
+  margin-top: 62px;
+}
+
+.blogs-link:hover,
+.blogs-link:focus {
+  // color: var(--accent-color-bolog);
+  // color: $accent-color-bolog;
+  // color: map-get($colors, "accent-bolog");
+  color: getColor("accent-bolog");
+
+}
+
+.blogs-title {
+  margin-top: 32px;
+
+  // color: var(--title-color-blog);
+  // color: $title-color-blog;
+  // color: map-get($colors, "title-blog");
+  color: getColor("title-blog");
+
+  font-size: 30px;
+}
+
+.blogs-text {
+  margin-top: 48px;
+
+  // color: var(--cpntent-color-blog);
+  // color: $cpntent-color-blog;
+  // color: map-get($colors, "cpntent-blog");
+  color: getColor("cpntent-blog");
+}
+
+.blogs-button {
+  margin-top: 90px;
+  padding: 20px 49px 21px 48px;
+
+  // color: var(--cpntent-color-blog);
+  // color: $cpntent-color-blog;
+  // color: map-get($colors, "cpntent-blog");
+  color: getColor("cpntent-blog");
+
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 2px;
+
+  margin-left: 350px;
+}
+
+.blogs-button:hover,
+.blogs-button:focus {
+  // background-color: var(--accent-color-bolog);
+  // background-color: $accent-color-bolog;
+  // color: map-get($colors, "accent-bolog");
+  color: getColor("accent-bolog");
+
+  color: wheat;
+}

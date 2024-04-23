@@ -1,0 +1,28 @@
+
+.header {
+  padding-top: 71px;
+  padding-bottom: 71px;
+
+  border-bottom: 1px solid gray;
+}
+
+.header-list-munu {
+  display: flex;
+  justify-content: center;
+
+  padding-left: 0px;
+}
+
+.header-menu-item:not(:first-child) {
+  margin-left: 99px;
+}
+
+.header-link {
+  color: var(--menu-color-blog);
+  text-transform: uppercase;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color-bolog);
+}

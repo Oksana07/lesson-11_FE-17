@@ -1,11 +1,3 @@
-:root {
-  --accent-color-bolog: #03a9f4;
-  --menu-color-blog: #7d7d7d;
-  --link-color-blog: #b4ad9e;
-  --title-color-blog: #626262;
-  --cpntent-color-blog: #626262;
-}
-
 body {
   font-family: "Playfair Display", serif;
   font-style: normal;
@@ -16,9 +8,7 @@ body {
 
 li {
   list-style: none;
-
 }
-
 
 a {
   text-decoration: none;
@@ -35,7 +25,7 @@ p {
   margin: 0px;
 }
 
-ul{
+ul {
   padding-left: 0px;
 }
 
@@ -50,7 +40,7 @@ ul{
   overflow: hidden;
 }
 
-.container{
+.container {
   width: 972px;
   padding-left: 33px;
   padding-right: 33px;
@@ -58,22 +48,19 @@ ul{
   margin-right: auto;
 }
 
-/* header */
-.header{
+.header {
   padding-top: 71px;
   padding-bottom: 71px;
-
   border-bottom: 1px solid gray;
 }
 
-.header-list-munu{
-  display: flex; 
+.header-list-munu {
+  display: flex;
   justify-content: center;
-
   padding-left: 0px;
 }
 
-.header-menu-item:not(:first-child){
+.header-menu-item:not(:first-child) {
   margin-left: 99px;
 }
 
@@ -87,8 +74,7 @@ ul{
   color: var(--accent-color-bolog);
 }
 
-/* section */
-.blogs{
+.blogs {
   padding-top: 92px;
   padding-bottom: 66px;
 }
@@ -100,60 +86,52 @@ ul{
   margin-top: -130px;
 }
 
-.blogs-list > .blogs-item{
+.blogs-list > .blogs-item {
   margin-left: 65px;
   margin-top: 130px;
- flex-basis: calc((100% - 120px) / 3);
+  flex-basis: calc((100% - 120px) / 3);
 }
 
-.blogs-item{
+.blogs-item {
   width: 420px;
 }
 
 .blogs-link {
-  color: var(--link-color-blog);
+  color: #b4ad9e;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
-
   display: block;
   margin-top: 62px;
 }
 
 .blogs-link:hover,
 .blogs-link:focus {
-  color: var(--accent-color-bolog);
+  color: #03a9f4;
 }
 
 .blogs-title {
   margin-top: 32px;
-
-  color: var(--title-color-blog);
+  color: #626262;
   font-size: 30px;
 }
 
 .blogs-text {
   margin-top: 48px;
-
-  color: var(--cpntent-color-blog);
+  color: #626262;
 }
 
 .blogs-button {
   margin-top: 90px;
   padding: 20px 49px 21px 48px;
-
-  color: var(--cpntent-color-blog);
+  color: #626262;
   background-color: aliceblue;
   cursor: pointer;
   border-radius: 2px;
-
   margin-left: 350px;
-
 }
-
-
 
 .blogs-button:hover,
-.blogs-button:focus{
-background-color: var(--accent-color-bolog);
-color: wheat;
-}
+.blogs-button:focus {
+  color: #03a9f4;
+  color: wheat;
+}/*# sourceMappingURL=blog.css.map */
